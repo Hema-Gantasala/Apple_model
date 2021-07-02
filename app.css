@@ -1,0 +1,308 @@
+@import url('C:/Users/HP/Desktop/BEWE13/fontawesome-free-5.15.2-web/css/all.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#a{
+    position:fixed;
+    background-color:#444;
+    color:white;
+    width:100%;
+    height:60px;
+    font-size: 16px;
+    font-weight: normal;
+    display:inline-block;
+}
+#input
+{
+    display: inline-block;
+    height: 30px;
+    width:300px;
+    position: relative;
+    left:-30px;
+    bottom: 5px;
+    background-color: darkgrey;
+    border:1px solid black;
+    text-indent: 30px;
+    font-size:20px;
+    
+}
+/* #tick
+{
+    text-indent: -10px;
+    font-size: 20px;
+    font-weight: lighter;
+} */
+#i
+{
+    text-indent: 200px;
+}
+button
+{
+    background-color: rgb(75, 75, 182);
+    display: inline-block;
+    height:25px;
+    width:100px;
+    color: white;
+    border-radius: 5px;
+}
+
+#b {
+    position: fixed;
+    background-color: black;
+    color: darkgrey;
+    width: 100%;
+    height: 45px;
+    font-size: 12pt;
+     top: 60px; 
+}
+#icon
+{
+    display: inline-block;
+    font-size: 20pt;
+    position: relative;
+    bottom:4px;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+
+li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+li a {
+    text-decoration: none;
+    color:white;
+}
+li:hover{
+    border:0px solid blueviolet;     
+
+}
+
+main {
+    padding-top: 40px;
+}
+
+.shop
+{
+    background-color: #ededf8;
+    position: relative;
+    top:66px;
+    height: 5vh;
+    padding-top:10px;
+    text-align: center;
+    color: #1d1d1f;
+    
+}
+.shop a{
+    text-decoration: none;
+    color:  #06c;
+    
+}
+.shop > *
+{
+    display:flex;
+    justify-content: center;
+
+}
+#back_one, #back_two, #back_three {
+     background-image: url('./images/iphone_12_updated__jepm2xpxncuy_large.jpg');
+    background-size: 226% 95%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position-x: -850px;
+    background-position-y: -45px;
+    padding-top: 100px;
+    margin-bottom: -38px;
+}
+
+.back > * {
+    display: flex;
+    justify-content: center;
+    line-height: 1.4;
+}
+
+.back h2 {
+    font-size: 40pt;
+}
+
+.back h3 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+.back a {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: #06c;
+    
+}
+.back a:hover{
+    color: blue;
+}
+.back h4
+{
+    color:darkgrey;
+}
+
+#back_two {
+    background-image: url('./images/iphone_12_pro_us__e5oyysg4k0ya_large.jpg');
+    padding-top: 50px;
+    background-position-x: -800px;
+    background-position-y: -35px;
+    color: white;
+}
+
+#back_three {
+    background-image: url('./images/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large.jpg');
+    padding-top:50px;
+    background-position-x: -824px;
+    background-position-y: -55px;
+    color: white;
+}
+
+.divison {
+    display: flex;
+}
+
+.divison .box {
+    text-align: center;
+    height: 96vh;
+    width: 50%;
+    /* margin: 10px; */
+    margin-bottom: -45px;
+    background-size: 200% 80%;
+    background-repeat: no-repeat;
+    background-position-x:-330px;
+    background-position-y:-35px;
+    padding-top: 50px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.divison .box a { 
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: bolder;
+    padding: 30px;
+    line-height: 35px;
+    color: #06c;
+
+}
+.divison .box h2
+{
+    font-weight: 5px;
+}
+
+#box1 {
+    background-image: url('./images/promo_imac__crg641tip4q6_large.jpg');
+    color: black;
+    
+}
+
+#box2 {
+    background-image: url('./images/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg');
+    color:white;
+}
+
+#box3 {
+    background-image: url('./images/tile__cauwwcyyn9hy_large.jpg');
+    color: black;
+    height:calc(var(--content-height) + var(--global-nav-collective-height));
+    margin-top: -100px;
+    background-color: #fbfbfb;
+    background-size: 143% 60%;
+    background-position-x:-97px;
+    background-position-y:231px;
+}
+
+#box4 {
+    background-image: url('./images/tile__cauwwcyyn9hy_large\ \(1\).jpg');
+    color: black;
+    margin-top: -100px;
+    background-color: #fbfbfb;
+    background-size: 75% 60%;
+    background-position-x:86px;
+    background-position-y:231px;
+    
+}
+#box5
+{
+   background-image: url('./images/tile__cauwwcyyn9hy_large\ \(2\).jpg');
+   color: black;
+   background-position-y: 50px ;
+    margin-right:  10px;
+    margin-left: 10px;
+   margin-top: 10px; 
+   line-height: 20px;
+   padding-top: 85px;
+}
+#box6
+{
+    background-image: url('./images/promo_morning_show__yubzhh5l602u_large.jpg');
+    color:white;
+    background-position-y:50px ;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 85px;
+    
+}
+.logo
+{
+    background-image: url('./images/promo_logo_morning_show__d343rrbcj64i_large.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 296px 92px;
+    height: 92px;
+}
+#teaser
+{
+    position: relative;
+    top:390px;
+    color:white;
+    font-weight: bolder;
+}
+
+#box2 .label {
+    color: red;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: white;
+}
+
+footer {
+    background-color: rgba(211,211,211,0.8);
+    width: 100%;
+    height: 700px;
+}
+
+footer .contents {
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+footer .contents > * {
+    font-size: 10pt;
+    color: gray;
+}
